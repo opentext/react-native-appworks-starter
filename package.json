@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "npm run test",
-    "start": "node node_modules/react-native/local-cli/cli.js start"
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "build": "mkdir -p dist && node node_modules/react-native/local-cli/cli.js bundle --entry-file index.js --bundle-output dist/index.bundle.js",
+    "rn": "node node_modules/react-native/local-cli/cli.js"
   },
   "repository": {
     "type": "git",
