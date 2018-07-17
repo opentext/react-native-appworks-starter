@@ -1,0 +1,25 @@
+{
+  "name": "react-native-appworks-starter",
+  "version": "1.0.0",
+  "description": "Starter app to boostrap React Native development on the AppWorks client",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test",
+    "start": "node node_modules/react-native/local-cli/cli.js start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/opentext/react-native-appworks-starter.git"
+  },
+  "author": "Jason Ibrahim",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/opentext/react-native-appworks-starter/issues"
+  },
+  "homepage": "https://github.com/opentext/react-native-appworks-starter#readme",
+  "dependencies": {
+    "react": "^16.4.1",
+    "react-native": "^0.56.0",
+    "whatwg-fetch": "^2.0.4"
+  }
+}
